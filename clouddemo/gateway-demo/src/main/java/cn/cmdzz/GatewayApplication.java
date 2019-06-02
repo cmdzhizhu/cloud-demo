@@ -8,6 +8,10 @@ import org.springframework.cloud.netflix.zuul.EnableZuulProxy;
  * @author cmdzz
  * @date 2019/6/1 - 19:00
  */
+
+/**
+ * 路由
+ */
 @SpringBootApplication
 @EnableZuulProxy
 public class GatewayApplication {
