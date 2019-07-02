@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+        <!DOCTYPE mapper
+                PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+
+                "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.cmdzz.dao.IUserDao">
+
+    <!-- 配置 查询结果的列名和实体类的属性名的对应关系
+        id 是别的查询引用名称  type是封装到哪个类
+     -->
+    <resultMap id="userMap" type="user">
+        <!-- 主键字段的对应 -->
+        <id property="id" column="id"></id>
+        <!--非主键字段的对应
+            property是实体类属性  column是数据库字段
+        -->
+        <result property="userName" column="username"></result>
+        <result property="address" column="address"></result>
+        <result property="sex" column="sex"></result>
+        <result property="birthday" column="birthday"></result>
+    </resultMap>
+
+
+    <!--配置查询所有
+      id="findAll" 是UserDao方法名 要一致
+  -->
+    <select id="findAll" resultType="user">
+        select * from user
+    </select>
+
+
+
+    <!-- 根据id查询用户 -->
+    <select id="findById" parameterType="INT" resultType="user">
+        select * from user where id = #{uid}
+    </select>
+
+    <!-- 根据名称模糊查询 -->
+    <select id="findByName" parameterType="string"  resultType="user">
+        select * from user where username like #{userName}
+        <!-- select * from user where username like '%${value}%'-->
+    </select>
+
+
+
+    <!-- 根据queryVo的条件查询用户 -->
+    <select id="findUserByVo" parameterType="com.cmdzz.domain.QueryVo" resultMap="userMap">
+        select * from user where username like #{user.userName}
+    </select>
+
+
+    <!--根据条件查询-->
+    <select id="findUserByConditon" resultMap="userMap" parameterType="user">
+        select * from user
+       <where>
+            <if test="userName!=null">
+              and username=#{userName}
+            </if>
+            <if test="sex!=null">
+                and sex=#{sex}
+            </if>
+           </where>
+    </select>
+
+
+    <!--根据queryVo中的id集合查询用户列表-->
+    <select id="findUserInIds" resultMap="userMap" parameterType="queryVo">
+      select * from user
+      <where>
+        <if test="ids!=null and ids.size()>0">
+            <foreach collection="ids" open="and id in (" close=")" item="uid" separator=",">
+               #{uid}
+            </foreach>
+        </if>
+
+      </where>
+
+    </select>
+    
+</mapper>

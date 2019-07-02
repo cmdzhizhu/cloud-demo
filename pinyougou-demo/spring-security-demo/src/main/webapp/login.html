@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>登录</title>
+</head>
+<body>
+    <!--/login 是spring security自动生成的路径 必须要post提交-->
+    <form action="/login" method="post">
+        <!--spring security 默认接收表单登录为username password 修改要到配置文件修改-->
+        用户名：<input name="username"><br>
+        密码：<input name="password"><br>
+        <button>登录</button>
+    </form>
+</body>
+</html>

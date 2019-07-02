@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans:beans xmlns="http://www.springframework.org/schema/security"
+	xmlns:beans="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+						http://www.springframework.org/schema/security http://www.springframework.org/schema/security/spring-security.xsd">
+
+	<!--定义默认不拦截的资源
+		设置页面不登陆也可以访问
+	-->
+	<http pattern="/login.html" security="none"></http>
+	<http pattern="/login_err.html" security="none"></http>
+
+	<!--页面拦截规则
+		pattern="/*"  根目录下的资源 不包括子目录
+		pattern="/**" 根目录下的资源 包括子目录
+		角色：ROLE_XXX
+		access="ROLE_USER" 表示当前用户必须有ROLE_USER的角色才可以访问根目录及其子目录
+		use-expressions="false" 是否启用SPEL表达式 false为不启用 默认为true,
+		  如果不配置为false,access="hasRole(ROLE_USER)"
+	-->
+	<http use-expressions="false">
+		<intercept-url pattern="/**" access="ROLE_USER"/>
+
+		<!--开启表单登录功能  <form-login/>自动生成一个登录表单-->
+		<!--<form-login/>-->
+		<!--自定义登录表单配置
+			login-page="/login.html"  登录表单
+			default-target-url="/index.html"  登录成功后跳转到的页面
+			authentication-failure-url="/login_err.html" 登录失败跳转的页面
+		-->
+		<form-login login-page="/login.html" default-target-url="/index.html" authentication-failure-url="/login_err.html"/>
+		<!--关闭csrf跨域请求校验-->
+		<csrf disabled="true"/>
+	</http>
+
+	<!--认证管理器-->
+	<authentication-manager>
+		<!--认证提供者-->
+		<authentication-provider>
+			<user-service>
+				<!--配置当前系统的用户 这里手动添加用户名和密码
+					authorities="ROLE_USER"表示这个用户属于哪个角色
+				-->
+				<user name="admin" password="123456" authorities="ROLE_USER"/>
+			</user-service>
+		</authentication-provider>
+
+	</authentication-manager>
+		
+</beans:beans>

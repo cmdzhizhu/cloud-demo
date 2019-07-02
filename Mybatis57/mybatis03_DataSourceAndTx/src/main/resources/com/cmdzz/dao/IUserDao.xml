@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+        <!DOCTYPE mapper
+                PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+
+                "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.cmdzz.dao.IUserDao">
+
+    <!-- 配置 查询结果的列名和实体类的属性名的对应关系
+        id 是别的查询引用名称  type是封装到哪个类
+     -->
+    <resultMap id="userMap" type="user">
+        <!-- 主键字段的对应 -->
+        <id property="id" column="id"></id>
+        <!--非主键字段的对应
+            property是实体类属性  column是数据库字段
+        -->
+        <result property="userName" column="username"></result>
+        <result property="address" column="address"></result>
+        <result property="sex" column="sex"></result>
+        <result property="birthday" column="birthday"></result>
+    </resultMap>
+
+
+    <!--配置查询所有
+      id="findAll" 是UserDao方法名 要一致
+  -->
+    <select id="findAll" resultType="user">
+        select * from user
+    </select>
+
+    <!--保存用户-->
+    <!-- <insert id="saveUser" parameterType="user">
+         insert into user(username,address,sex,birthday)value (#{userName},#{address},#{sex},#{birthday})
+
+     </insert>
+ -->
+    <!-- 保存用户 -->
+    <insert id="saveUser" parameterType="user">
+        <!-- 配置插入操作后，获取插入数据的id -->
+        <selectKey keyProperty="id" keyColumn="id" resultType="int" order="AFTER">
+            select last_insert_id();
+        </selectKey>
+        insert into user(username,address,sex,birthday)values(#{userName},#{userAddress},#{userSex},#{userBirthday});
+    </insert>
+
+    <!--更新用户-->
+    <update id="updateUser" parameterType="user">
+        update user set username=#{userName},address=#{address},sex=#{sex},birthday=#{birthday}
+        where
+        id=#{id}
+
+    </update>
+
+    <!-- 删除用户 由于接口中只有一个参数传进来，所以占位符#{}里面可以随便写-->
+    <delete id="deleteUser" parameterType="java.lang.Integer">
+        delete from user where id = #{uid}
+    </delete>
+
+
+    <!-- 根据id查询用户 -->
+    <select id="findById" parameterType="INT" resultType="user">
+        select * from user where id = #{uid}
+    </select>
+
+    <!-- 根据名称模糊查询 -->
+    <select id="findByName" parameterType="string"  resultType="user">
+        select * from user where username like #{name}
+        <!-- select * from user where username like '%${value}%'-->
+    </select>
+
+    <!-- 获取用户的总记录条数 -->
+    <select id="findTotal" resultType="int">
+        select count(id) from user;
+    </select>
+
+
+
+    <!-- 根据queryVo的条件查询用户 -->
+    <select id="findUserByVo" parameterType="com.cmdzz.domain.QueryVo" resultMap="userMap">
+        select * from user where username like #{user.userName}
+    </select>
+</mapper>
