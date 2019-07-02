@@ -2,134 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b4615ec0-3415-4f0b-a52f-dcc51624e57a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mybatis57.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis01/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis01/src/main/java/com/cmdzz/dao/IUserDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis01/src/main/java/com/cmdzz/domain/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis01/src/main/resources/SqlMapConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis01/src/main/resources/com/cmdzz/dao/IUserDao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis01/src/main/resources/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis01/src/test/java/com/cmdzz/test/MybatisTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis02_crud/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis02_crud/src/main/java/com/cmdzz/dao/IUserDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis02_crud/src/main/java/com/cmdzz/domain/QueryVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis02_crud/src/main/java/com/cmdzz/domain/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis02_crud/src/main/resources/SqlMapConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis02_crud/src/main/resources/com/cmdzz/dao/IUserDao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis02_crud/src/main/resources/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis02_crud/src/test/java/com/cmdzz/test/MybatisTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis03_DataSourceAndTx/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis03_DataSourceAndTx/src/main/java/com/cmdzz/dao/IUserDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis03_DataSourceAndTx/src/main/java/com/cmdzz/domain/QueryVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis03_DataSourceAndTx/src/main/java/com/cmdzz/domain/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis03_DataSourceAndTx/src/main/resources/SqlMapConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis03_DataSourceAndTx/src/main/resources/com/cmdzz/dao/IUserDao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis03_DataSourceAndTx/src/main/resources/jdbcConfig.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis03_DataSourceAndTx/src/main/resources/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis03_DataSourceAndTx/src/test/java/com/cmdzz/test/MybatisTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis03_DynamicSQL/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis03_DynamicSQL/src/main/java/com/cmdzz/dao/IUserDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis03_DynamicSQL/src/main/java/com/cmdzz/domain/QueryVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis03_DynamicSQL/src/main/java/com/cmdzz/domain/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis03_DynamicSQL/src/main/resources/SqlMapConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis03_DynamicSQL/src/main/resources/com/cmdzz/dao/IUserDao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis03_DynamicSQL/src/main/resources/jdbcConfig.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis03_DynamicSQL/src/main/resources/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis03_DynamicSQL/src/test/java/com/cmdzz/test/MybatisTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis03_ManyToMany/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis03_ManyToMany/src/main/java/com/cmdzz/dao/IRoleDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis03_ManyToMany/src/main/java/com/cmdzz/dao/IUserDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis03_ManyToMany/src/main/java/com/cmdzz/domain/Role.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis03_ManyToMany/src/main/java/com/cmdzz/domain/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis03_ManyToMany/src/main/resources/SqlMapConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis03_ManyToMany/src/main/resources/com/cmdzz/dao/IRoleDao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis03_ManyToMany/src/main/resources/com/cmdzz/dao/IUserDao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis03_ManyToMany/src/main/resources/jdbcConfig.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis03_ManyToMany/src/main/resources/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis03_ManyToMany/src/test/java/com/cmdzz/test/RoleTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis03_OneToMany/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis03_OneToMany/src/main/java/com/cmdzz/dao/IAccountDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis03_OneToMany/src/main/java/com/cmdzz/dao/IUserDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis03_OneToMany/src/main/java/com/cmdzz/domain/Account.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis03_OneToMany/src/main/java/com/cmdzz/domain/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis03_OneToMany/src/main/resources/SqlMapConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis03_OneToMany/src/main/resources/com/cmdzz/dao/IAccountDao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis03_OneToMany/src/main/resources/com/cmdzz/dao/IUserDao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis03_OneToMany/src/main/resources/jdbcConfig.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis03_OneToMany/src/main/resources/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis03_OneToMany/src/test/java/com/cmdzz/test/AccountTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis03_OneToMany/src/test/java/com/cmdzz/test/UserTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../clouddemo/cmdzz-crawler-first/test-demo/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../clouddemo/consumer-demo/src/main/java/cn/cmdzz/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../maybatis_day01/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../maybatis_day01/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../maybatis_day01/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../maybatis_day01/mybatis_day02_CRUD/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../maybatis_day01/mybatis_day02_CRUD/src/main/java/com/cmdzz/dao/IUserDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../maybatis_day01/mybatis_day02_CRUD/src/main/java/com/cmdzz/domain/QueryVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../maybatis_day01/mybatis_day02_CRUD/src/main/java/com/cmdzz/domain/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../maybatis_day01/mybatis_day02_CRUD/src/main/resources/SqlMapConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../maybatis_day01/mybatis_day02_CRUD/src/main/resources/com/cmdzz/dao/IUserDao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../maybatis_day01/mybatis_day02_CRUD/src/main/resources/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../maybatis_day01/mybatis_day02_CRUD/src/test/java/com/cmdzz/test/MybatisTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../maybatis_day01/mybatis_day03_dataSourceAndTx/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../maybatis_day01/mybatis_day03_dataSourceAndTx/src/main/java/com/cmdzz/dao/IUserDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../maybatis_day01/mybatis_day03_dataSourceAndTx/src/main/java/com/cmdzz/domain/QueryVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../maybatis_day01/mybatis_day03_dataSourceAndTx/src/main/java/com/cmdzz/domain/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../maybatis_day01/mybatis_day03_dataSourceAndTx/src/main/resources/SqlMapConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../maybatis_day01/mybatis_day03_dataSourceAndTx/src/main/resources/com/cmdzz/dao/IUserDao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../maybatis_day01/mybatis_day03_dataSourceAndTx/src/main/resources/jdbcConfig.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../maybatis_day01/mybatis_day03_dataSourceAndTx/src/main/resources/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../maybatis_day01/mybatis_day03_dataSourceAndTx/src/test/java/com/cmdzz/test/MybatisTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../maybatis_day01/mybatis_day03_dynamicSQL/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../maybatis_day01/mybatis_day03_dynamicSQL/src/main/java/com/cmdzz/dao/IUserDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../maybatis_day01/mybatis_day03_dynamicSQL/src/main/java/com/cmdzz/domain/QueryVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../maybatis_day01/mybatis_day03_dynamicSQL/src/main/java/com/cmdzz/domain/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../maybatis_day01/mybatis_day03_dynamicSQL/src/main/resources/SqlMapConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../maybatis_day01/mybatis_day03_dynamicSQL/src/main/resources/com/cmdzz/dao/IUserDao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../maybatis_day01/mybatis_day03_dynamicSQL/src/main/resources/jdbcConfig.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../maybatis_day01/mybatis_day03_dynamicSQL/src/main/resources/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../maybatis_day01/mybatis_day03_dynamicSQL/src/test/java/com/cmdzz/test/MybatisTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../maybatis_day01/mybatis_day03_oneToMany/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../maybatis_day01/mybatis_day03_oneToMany/src/main/java/com/cmdzz/dao/IAccountDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../maybatis_day01/mybatis_day03_oneToMany/src/main/java/com/cmdzz/dao/IUserDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../maybatis_day01/mybatis_day03_oneToMany/src/main/java/com/cmdzz/domain/Account.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../maybatis_day01/mybatis_day03_oneToMany/src/main/java/com/cmdzz/domain/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../maybatis_day01/mybatis_day03_oneToMany/src/main/resources/SqlMapConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../maybatis_day01/mybatis_day03_oneToMany/src/main/resources/com/cmdzz/dao/IAccountDao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../maybatis_day01/mybatis_day03_oneToMany/src/main/resources/com/cmdzz/dao/IUserDao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../maybatis_day01/mybatis_day03_oneToMany/src/main/resources/jdbcConfig.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../maybatis_day01/mybatis_day03_oneToMany/src/main/resources/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../maybatis_day01/mybatis_day03_oneToMany/src/test/java/com/cmdzz/test/AccountTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../maybatis_day01/mybatis_day03_oneToMany/src/test/java/com/cmdzz/test/UserTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../maybatis_day01/src/main/java/com/cmdzz/dao/IUserDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../maybatis_day01/src/main/java/com/cmdzz/domain/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../maybatis_day01/src/main/resources/SqlMapConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../maybatis_day01/src/main/resources/com/cmdzz/dao/IUserDao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../maybatis_day01/src/main/resources/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../maybatis_day01/src/test/java/com/cmdzz/test/MybatisTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pinyougou-demo/.idea/artifacts/demo04_war.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pinyougou-demo/.idea/artifacts/demo04_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pinyougou-demo/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pinyougou-demo/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pinyougou-demo/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pinyougou-demo/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pinyougou-demo/spring-security-demo/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pinyougou-demo/spring-security-demo/spring-security-demo.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pinyougou-demo/spring-security-demo/src/main/resource/spring-security.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pinyougou-demo/spring-security-demo/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pinyougou-demo/spring-security-demo/src/main/webapp/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pinyougou-demo/spring-security-demo/src/main/webapp/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pinyougou-demo/spring-security-demo/src/main/webapp/login_err.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../test/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../clouddemo/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../clouddemo/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../clouddemo/cmdzz-crawler-first/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../clouddemo/cmdzz-crawler-first/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -194,9 +67,10 @@
         <entry file="file://$PROJECT_DIR$/mybatis03_ManyToMany/src/main/java/com/cmdzz/domain/Role.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="129">
-              <caret line="17" column="34" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
+              <caret line="17" column="28" lean-forward="true" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#354#355#0" expanded="true" />
                 <element signature="e#382#383#0" expanded="true" />
                 <element signature="e#428#429#0" expanded="true" />
                 <element signature="e#462#463#0" expanded="true" />
@@ -385,14 +259,14 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1562059347013" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1562059734610" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/mybatis03_DataSourceAndTx" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.32839224" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -517,8 +391,23 @@
       <option name="presentableId" value="Default" />
       <updated>1562051916067</updated>
       <workItem from="1562051919684" duration="1750000" />
-      <workItem from="1562053765927" duration="3048000" />
+      <workItem from="1562053765927" duration="3508000" />
     </task>
+    <task id="LOCAL-00001" summary="mybaits">
+      <created>1562059358368</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1562059358368</updated>
+    </task>
+    <task id="LOCAL-00002" summary="mybaits">
+      <created>1562059520078</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1562059520078</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -545,10 +434,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4798000" />
+    <option name="totallyTimeSpent" value="5258000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="276" y="126" width="1241" height="669" extended-state="0" />
+    <frame x="234" y="64" width="1241" height="669" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24979591" />
@@ -560,7 +449,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.34709194" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.7036735" visible="true" weight="0.34709194" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -569,7 +458,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info active="true" anchor="bottom" id="Event Log" order="11" sideWeight="0.29632652" side_tool="true" visible="true" weight="0.34709194" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.3108614" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -584,6 +473,10 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="mybaits" />
+    <option name="LAST_COMMIT_MESSAGE" value="mybaits" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/mybatis01/src/java/com/cmdzz/dao/IUserDao.java" />
@@ -741,9 +634,10 @@
     <entry file="file://$PROJECT_DIR$/mybatis03_ManyToMany/src/main/java/com/cmdzz/domain/Role.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="129">
-          <caret line="17" column="34" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
+          <caret line="17" column="28" lean-forward="true" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#354#355#0" expanded="true" />
             <element signature="e#382#383#0" expanded="true" />
             <element signature="e#428#429#0" expanded="true" />
             <element signature="e#462#463#0" expanded="true" />
